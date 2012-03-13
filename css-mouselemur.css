@@ -1,7 +1,7 @@
 body {
   background-color:#C3F2B3;
   font-family:'GEORGIA';
-  color:#574133; text-align:center
+  color:#574133; text-align:left
 }
 
 h1 {
@@ -18,9 +18,9 @@ div.img
 {
   margin: 2px;
   border: 1px solid #000000;
-  height: 220px;
-  width: auto;
-  float: left;
+  height: 200px;
+  width: 150px;
+  float: center;
   text-align: center;
 }	
 div.img img
