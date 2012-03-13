@@ -2,16 +2,20 @@
 <html>
   <head>
     <link rel="stylesheet" type="text/css" href="css-mouselemur.css" />
-    <meta charset="UTF-8>
+    <meta charset="UTF-8">
     <title> "Mouse Lemur Gallery" </title>
   </head>
   <body>
-     <h1>Mouse Lemur Gallery</h1>
-     <form>
-      <input type="button" onclick=
-      "alert('WARNING: This page contains extreme cuteness and may cause shrieking.')"
-      value="Warning!">
-    </form>
+    <h1>Mouse Lemur Gallery</h1>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+     <script>
+       $(document).ready(function(){
+         $("a").click(function(event){
+           alert("Warning: The image you clicked will get bigger and even cuter!");
+         });
+       });
+     </script>
     <div class="img">
       <a target="_blank" href="http://images.sciencedaily.com/2007/01/070102101221.jpg">
       <img src="http://images.sciencedaily.com/2007/01/070102101221.jpg" alt="Mouse Lemur in Hand" width="110" />
