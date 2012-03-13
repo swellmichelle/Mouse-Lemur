@@ -1,0 +1,15 @@
+body {
+  background-color:#C3F2B3;
+  font-family:'GEORGIA';
+  color:#574133; text-align:center
+}
+
+h1 {
+  font-family:'GEORGIA';
+  color:#574133;
+  text-align:left
+}
+
+a:link {color:#000000;} 
+a:visited {color:#990B0B;}
+a:hover {color:#6E6E6E;}
