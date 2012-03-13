@@ -13,3 +13,27 @@ h1 {
 a:link {color:#000000;} 
 a:visited {color:#990B0B;}
 a:hover {color:#6E6E6E;}
+
+div.img
+{
+  margin: 2px;
+  border: 1px solid #000000;
+  height: 220px;
+  width: auto;
+  float: left;
+  text-align: center;
+}	
+div.img img
+{
+  display: inline;
+  margin: 3px;
+  border: 1px solid #ffffff;
+}
+div.img a:hover img {border: 1px solid #000000;}
+div.desc
+{
+  text-align: center;
+  font-weight: normal;
+  width: 120px;
+  margin: 2px;
+}
