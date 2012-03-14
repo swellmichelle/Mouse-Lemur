@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="css-mouselemur.css" />
+    <meta charset="UTF-8">
+    <title> "Mouse Lemur Gallery" </title>
+  </head>
+  <body>
+    <h1>Mouse Lemur Gallery</h1>
+    <h2>This is where all the cute mouse lemurs hang out.</h2>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+     <script>
+       $(document).ready(function(){
+         $("a").click(function(event){
+           alert("Warning: The image you clicked will get bigger and even cuter!");
+         });
+       });
+     </script>
+    <div class="img">
+      <a target="_blank" href="http://images.sciencedaily.com/2007/01/070102101221.jpg">
+      <img src="mouselemur.jpg" alt="Mouse Lemur in Hand" width="110" />
+      </a>
+      <div class="desc">Here is a friggin cute mouse lemur.</div>
+    </div>
+    <div class="img">
+      <a target="_blank" href="http://andreaaustoni.com/wp-content/uploads/2011/03/Madame-Berthes-Mouse-Lemur.jpg">
+      <img src="babymouselemur.jpg" alt="Baby Mouse Lemur" width="110"  />
+      </a>
+      <div class="desc">Sleepy baby mouse leumur...Awww!</div>
+    </div>
+  <p>Look! There are more down here!</p>
+    <div class="img">
+      <a target="_blank" href="http://images.nationalgeographic.com/wpf/media-live/photos/000/321/overrides/top-ten-most-threatened-forests-mouse-lemur-madagascar_32114_600x450.jpg">
+      <img src="happymouselemur.jpg" alt="Happy Mouse Lemur" width="110" />
+      </a>
+      <div class="desc">This mouse lemur is happy!</div>
+    </div>
+    <div class="img">
+      <a target="_blank" href="http://2.bp.blogspot.com/-95iThAWFUNk/TuCDan5qwuI/AAAAAAAAAKQ/tHZAkd75KC4/s1600/lemur_photo_5%255B1%255D.jpg">
+      <img src="hungrymouselemur.jpg" alt="Hungry Mouse Lemur" width="110" />
+      </a>
+      <div class="desc">This mouse lemur is eating. Nom nom nom.</div>
+    </div>
+  </body>
+</html>
