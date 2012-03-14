@@ -4,14 +4,6 @@ body {
   color:#574133; text-align:left
 }
 
-h1 {
-	color#000000; text-align:left
-}
-
-h2 {
-	color#000000; text-align:left
-}
-
 a:link {color:#000000;} 
 a:visited {color:#990B0B;}
 a:hover {color:#6E6E6E;}
