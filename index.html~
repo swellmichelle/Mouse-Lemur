@@ -23,7 +23,8 @@
   			<div class="unit">
 				<div class="col c1of2">
 					<div class="img">
-						<a target="_blank" 
+						<a
+							target="_blank" 
 							href="http://images.nationalgeographic.com/wpf/media-live/photos/000/321/overrides/top-ten-most-threatened-forests-mouse-lemur-madagascar_32114_600x450.jpg">
 								<img src="happymouselemur.jpg" alt="Happy Mouse Lemur" width="110" />
 						</a>
@@ -32,7 +33,8 @@
 				</div>
 				<div class="col c1of2">
 					<div class="img">
-						<a target="_blank"
+						<a
+							target="_blank"
 							href="http://2.bp.blogspot.com/-95iThAWFUNk/TuCDan5qwuI/AAAAAAAAAKQ/tHZAkd75KC4/s1600/lemur_photo_5%255B1%255D.jpg">
 								<img src="hungrymouselemur.jpg" alt="Hungry Mouse Lemur" width="110" />
 						</a>
