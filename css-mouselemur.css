@@ -12,7 +12,7 @@ a:link {color:#574133;}
 a:visited {color:#000000;}
 a:hover {color:#8F009C;}
 
-.header {
+.outer {
     width: 1090px;
     color: #574133;
     background-color: #E391EB;
