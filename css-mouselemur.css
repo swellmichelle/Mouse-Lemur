@@ -5,18 +5,18 @@ body {
 }
 
 h1, h2 {
-	color#000000; text-align:left
+	color:#574133; text-align:left
 }
 
-a:link {color:#000000;} 
+a:link {color:#574133;} 
 a:visited {color:#000000;}
 a:hover {color:#8F009C;}
 
-.outer {
+.header {
     width: 1090px;
     color: #574133;
     background-color: #E391EB;
-    border: 2px solid #000000;
+    border: 1px solid #000000;
     padding: 5px;
  }
 
