@@ -1,5 +1,5 @@
 body {
-  background-color:#E8AFED;
+  background-color:#F3FFD6;
   font-family:'GEORGIA';
   color:#574133; text-align:left
 }
@@ -15,7 +15,7 @@ a:hover {color:#8F009C;}
 .outer {
     width: 1090px;
     color: #574133;
-    background-color: #E391EB;
+    background-color: #F4B9FA;
     border: 1px solid #000000;
     padding: 5px;
  }
